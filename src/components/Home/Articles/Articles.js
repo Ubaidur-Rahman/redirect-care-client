@@ -1,5 +1,9 @@
 import React from 'react';
-import img1 from '../../../Asset/img/1250211.png';
+import img3 from '../../../Asset/img/1256586.png';
+import img1 from '../../../Asset/img/1_wxte0RvJjY5q7NGBPBPwyw.jpeg';
+import img4 from '../../../Asset/img/allopathy-Gastro.jpg';
+import img2 from '../../../Asset/img/pleased-young-female-doctor-wearing-medical-robe-stethoscope-around-neck-standing-with-closed-posture_409827-254.jpg';
+import img5 from '../../../Asset/img/young-woman-giving-herself-a-facial-at-home-1296x728-header.jpg';
 import './Articles.css';
 
 const Articles = () => {
@@ -7,27 +11,27 @@ const Articles = () => {
     const articleData= [
         {
             img: img1,
-            title: 'How to Decrese the leve of adipose in the body?',
+            title: 'Food and health, Excerpt from the Worldview',
             details: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,commodi repudiandae.',
-            authorImg: img1,
-            authorName: 'Abdullah',
+            authorImg: img2,
+            authorName: 'Rafida',
             authorCategory: 'Food and Health'
         },
         {
-            img: img1,
-            title: '',
-            details: '',
-            authorImg: '',
-            authorName: '',
-            authorCategory: ''
+            img: img5,
+            title: 'How to Take Care of Your Skin',
+            details: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,commodi repudiandae.',
+            authorImg: img3,
+            authorName: 'Nahian',
+            authorCategory: 'Skin and Care'
         },
         {
-            img: img1,
-            title: '',
-            details: '',
-            authorImg: '',
-            authorName: '',
-            authorCategory: ''
+            img: img4,
+            title: 'What is a Gastroenterologist?',
+            details: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,commodi repudiandae.',
+            authorImg: img2,
+            authorName: 'Ruby Roy',
+            authorCategory: 'Gastrology'
         },
     ];
 

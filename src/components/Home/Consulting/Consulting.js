@@ -23,47 +23,47 @@ const Consulting = () => {
         },
         {
             img: img2,
-            title: ''
+            title: 'Urology'
         },
         {
             img: img3,
-            title: ''
+            title: 'Neurology'
         },
         {
             img: img4,
-            title: ''
+            title: 'Internal Medicine'
         },
         {
             img: img5,
-            title: ''
+            title: 'General Medicine'
         },
         {
             img: img6,
-            title: ''
+            title: 'Allergy'
         },
         {
             img: img7,
-            title: ''
+            title: 'Dentisty'
         },
         {
             img: img8,
-            title: ''
+            title: 'HIV/AIDS'
         },
         {
             img: img9,
-            title: ''
+            title: 'Gastrology'
         },
         {
             img: img10,
-            title: ''
+            title: 'Brain'
         },
         {
             img: img11,
-            title: ''
+            title: 'Skin Care'
         },
         {
             img: img12,
-            title: ''
+            title: 'Paediatrics'
         },
     ]
 
