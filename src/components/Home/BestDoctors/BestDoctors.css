@@ -1,0 +1,61 @@
+.best-doctors-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255);
+}
+.best-doctors{
+    width: 1180px;
+    height: 440px;
+    display: flex;    
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 159px;
+    margin-bottom: 60px;
+}
+
+.best-doctors-content h1{
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 49px;
+    color: #1B2157;
+}
+
+.best-doctors-content p{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.best-doctors-content button{
+    background: #11969E;
+    border-radius: 20px;
+    border: 0;
+    font-weight: bold;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 15px 25px;
+    cursor: pointer;
+}
+
+.best-doctors-img img{
+    /* width: 496px;
+    height: 440px; */
+    border-radius: 15px;
+    max-width: 100%;
+    height: auto;
+}
+.list ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    list-style: none;
+}
+.list ul li::before{
+    content: "-";
+    color: blue;
+    font-size: 18px;
+    margin: 18px;
+    height: 20px;
+    width: 20px;
+
+}

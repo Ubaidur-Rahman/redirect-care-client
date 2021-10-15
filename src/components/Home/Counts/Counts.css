@@ -1,0 +1,32 @@
+.counts-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.counts{
+    width: 1180px;
+    height: 152px;
+    background: #1B2157;
+    border-radius: 20px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute
+}
+.counts-card{
+    text-align: center;
+}
+.counts-card h1{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFFFFF;
+}
+.counts-card p{
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #E9E9E9;
+    
+}

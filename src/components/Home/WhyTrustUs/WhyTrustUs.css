@@ -1,0 +1,53 @@
+.trust-us-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 249, 244, 0.95);
+}
+
+.trust-us{
+    width: 1180px;
+    height: 574px;
+    text-align: center;
+    }
+.trust-us-title h1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    /* line-height: 56px; */
+    color: #1B2157;
+    text-align: center;
+}
+.trust-us-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.single-card{
+    width: 209px;
+    height: 250px;
+    background: rgba(214, 222, 237, 0.4);
+    border-radius: 15px;
+}
+.single-card img{
+    width: 51px;
+    height: 48px;
+    border-radius: 25px;
+    margin-top: 25px;
+}
+.single-card .title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #1B2157;
+    margin: 10px;
+}
+
+.single-card .content{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    padding: 3px
+}

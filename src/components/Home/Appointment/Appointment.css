@@ -1,0 +1,37 @@
+.appointment-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.appointment{
+    width: 1180px;
+    height: 152px;
+    background: #1B2157;
+    border-radius: 20px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute
+}
+.appointment h2{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFFFFF;
+}
+.appointment button{
+    width: 260px;
+    height: 66px;
+    background: #ffffffb9;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    border: none;
+    color: #1B2157;
+    cursor: pointer;
+}
+.appointment button:hover{
+    background: #FFFFFF;
+}
